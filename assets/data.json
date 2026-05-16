@@ -26,8 +26,8 @@
     {
         "name": "60's Love",
         "artist": "Level Five - Topic",
-        "thumbnail": "assets/thumbnails/60's_Love.png",
-        "music": "assets/musics/60's_Love.m4a",
+        "thumbnail": "assets/thumbnails/60_s_Love.png",
+        "music": "assets/musics/60_s_Love.m4a",
         "start": 257,
         "type": "Delusional"
     },
@@ -90,8 +90,8 @@
     {
         "name": "O'Meri Laila",
         "artist": "Atif Aslam",
-        "thumbnail": "assets/thumbnails/O'Meri_Laila.png",
-        "music": "assets/musics/O'Meri_Laila.m4a",
+        "thumbnail": "assets/thumbnails/O_Meri_Laila.png",
+        "music": "assets/musics/O_Meri_Laila.m4a",
         "start": 40,
         "type": "In love"
     },

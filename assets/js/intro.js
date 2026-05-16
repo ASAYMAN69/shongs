@@ -1,24 +1,24 @@
 const Intro = {
     lines: {
         "In love": [
-            "Every moment with you feels like a dream.",
-            "You are the melody to my heart's song."
+            "amar fault na that i fell for you that hard",
+            "apni e eto pretty hmh, ei gaan gula apnar jonno"
         ],
         "Dreaming a life with you": [
-            "Building a future in your eyes.",
-            "Forever sounds just about right."
+            "hmmmm, what if we.....",
+            "me wanna stay with you <3 forever :3"
         ],
         "Delusional": [
-            "Lost in a world where you are mine.",
-            "Chasing shadows of our perfect illusion."
+            "kn je apnar chinta sharakkhon mathay ghure",
+            "tokhon eigula shuni aarki, bhallage, hehe"
         ],
         "Sed": [
-            "Tears fall like rain in your absence.",
-            "Aching for a touch that's only a memory."
+            "eid e je etodin chhuti, apnar shathe je.... :(",
+            "onkdin dekha hobe na :( ami kintu koshto paabo"
         ],
         "Admiring": [
-            "Your smile outshines the brightest stars.",
-            "I could spend an eternity just looking at you."
+            "your smile was the first thing that had me mesmerized",
+            "now even the thoughts of you is enough"
         ]
     },
 

@@ -6,9 +6,25 @@ let stack = [];
 let removedCountInBatch = 0;
 let totalRemovedCount = 0;
 let autoSlideTimer = null;
-const AUTO_SLIDE_DURATION = 10000; // 10 seconds
+const AUTO_SLIDE_DURATION = 15000; // 15 seconds
 
 const Slideshow = {
+    // ... rest of init and helper methods ...
+    fadeInAudio(audio) {
+        audio.volume = 0;
+        const duration = 500; // 0.5s
+        const interval = 50; // Every 50ms
+        const increment = interval / duration;
+        
+        const fader = setInterval(() => {
+            if (audio.volume < 1) {
+                audio.volume = Math.min(1, audio.volume + increment);
+            } else {
+                clearInterval(fader);
+            }
+        }, interval);
+    },
+
     async init() {
         try {
             const res = await fetch('assets/data.json');
@@ -161,6 +177,7 @@ const Slideshow = {
         
         const onCanPlay = () => {
             audio.currentTime = track.start || 0;
+            this.fadeInAudio(audio);
             audio.play().then(() => {
                 this.clearAutoSlide();
                 autoSlideTimer = setTimeout(() => {
