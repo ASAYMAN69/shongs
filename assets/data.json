@@ -1,0 +1,210 @@
+[
+    {
+        "name": "Hua Hain Aaj Pehli Baar",
+        "artist": "Amaal Mallik",
+        "thumbnail": "assets/thumbnails/Hua_Hain_Aaj_Pehli_Baar.png",
+        "music": "assets/musics/Hua_Hain_Aaj_Pehli_Baar.m4a",
+        "start": 219,
+        "type": "In love"
+    },
+    {
+        "name": "Tumi",
+        "artist": "Level Five - Topic",
+        "thumbnail": "assets/thumbnails/Tumi.png",
+        "music": "assets/musics/Tumi.m4a",
+        "start": 68.5,
+        "type": "In love"
+    },
+    {
+        "name": "Bagdhara - Bus Sohokari (\u09ac\u09be\u09b8-\u09b8\u09b9\u0995\u09be\u09b0\u09c0) | (Official Audio)",
+        "artist": "Bagdhara Band",
+        "thumbnail": "assets/thumbnails/Bagdhara_-_Bus_Sohokari_(\u09ac\u09be\u09b8-\u09b8\u09b9\u0995\u09be\u09b0\u09c0)__(Official_Audio).png",
+        "music": "assets/musics/Bagdhara_-_Bus_Sohokari_(\u09ac\u09be\u09b8-\u09b8\u09b9\u0995\u09be\u09b0\u09c0)__(Official_Audio).m4a",
+        "start": 73,
+        "type": "Dreaming a life with you"
+    },
+    {
+        "name": "60's Love",
+        "artist": "Level Five - Topic",
+        "thumbnail": "assets/thumbnails/60's_Love.png",
+        "music": "assets/musics/60's_Love.m4a",
+        "start": 257,
+        "type": "Delusional"
+    },
+    {
+        "name": "Chale Aana (From \"De De Pyaar De\")",
+        "artist": "Armaan Malik",
+        "thumbnail": "assets/thumbnails/Chale_Aana_(From_De_De_Pyaar_De).png",
+        "music": "assets/musics/Chale_Aana_(From_De_De_Pyaar_De).m4a",
+        "start": 43,
+        "type": "In love"
+    },
+    {
+        "name": "DARKHAAST",
+        "artist": "Mithoon - Topic",
+        "thumbnail": "assets/thumbnails/DARKHAAST.png",
+        "music": "assets/musics/DARKHAAST.m4a",
+        "start": 92,
+        "type": "Sed"
+    },
+    {
+        "name": "Shibu - 10 E 10 (Official Visualizer)",
+        "artist": "Shibu",
+        "thumbnail": "assets/thumbnails/Shibu_-_10_E_10_(Official_Visualizer).png",
+        "music": "assets/musics/Shibu_-_10_E_10_(Official_Visualizer).m4a",
+        "start": 30,
+        "type": "Admiring"
+    },
+    {
+        "name": "Tumi Aashe Paashe (Original Motion Picture Soundtrack)",
+        "artist": "Nakash Aziz Official",
+        "thumbnail": "assets/thumbnails/Tumi_Aashe_Paashe_(Original_Motion_Picture_Soundtrack).png",
+        "music": "assets/musics/Tumi_Aashe_Paashe_(Original_Motion_Picture_Soundtrack).m4a",
+        "start": 62,
+        "type": "In love"
+    },
+    {
+        "name": "Sohena Jatona",
+        "artist": "Arfin Rumey",
+        "thumbnail": "assets/thumbnails/Sohena_Jatona.png",
+        "music": "assets/musics/Sohena_Jatona.m4a",
+        "start": 47,
+        "type": "In love"
+    },
+    {
+        "name": "Parbona",
+        "artist": "Arijit Singh",
+        "thumbnail": "assets/thumbnails/Parbona.png",
+        "music": "assets/musics/Parbona.m4a",
+        "start": 58,
+        "type": "Dreaming a life with you"
+    },
+    {
+        "name": "Durpallar Gari",
+        "artist": "Moontasir Rakib - Topic",
+        "thumbnail": "assets/thumbnails/Durpallar_Gari.png",
+        "music": "assets/musics/Durpallar_Gari.m4a",
+        "start": 71,
+        "type": "Sed"
+    },
+    {
+        "name": "O'Meri Laila",
+        "artist": "Atif Aslam",
+        "thumbnail": "assets/thumbnails/O'Meri_Laila.png",
+        "music": "assets/musics/O'Meri_Laila.m4a",
+        "start": 40,
+        "type": "In love"
+    },
+    {
+        "name": "Zaalima",
+        "artist": "Arijit Singh",
+        "thumbnail": "assets/thumbnails/Zaalima.png",
+        "music": "assets/musics/Zaalima.m4a",
+        "start": 74,
+        "type": "Delusional"
+    },
+    {
+        "name": "PEE LOON",
+        "artist": "Mohit Chauhan",
+        "thumbnail": "assets/thumbnails/PEE_LOON.png",
+        "music": "assets/musics/PEE_LOON.m4a",
+        "start": 71,
+        "type": "Admiring"
+    },
+    {
+        "name": "TUM JO AAYE",
+        "artist": "The Folk & Soul Studio",
+        "thumbnail": "assets/thumbnails/TUM_JO_AAYE.png",
+        "music": "assets/musics/TUM_JO_AAYE.m4a",
+        "start": 134,
+        "type": "Delusional"
+    },
+    {
+        "name": "Tere Naina (From \"My Name Is Khan\")",
+        "artist": "Shankar Ehsaan Loy",
+        "thumbnail": "assets/thumbnails/Tere_Naina_(From_My_Name_Is_Khan).png",
+        "music": "assets/musics/Tere_Naina_(From_My_Name_Is_Khan).m4a",
+        "start": 204,
+        "type": "Admiring"
+    },
+    {
+        "name": "Aaj Se Teri",
+        "artist": "Arijit Singh",
+        "thumbnail": "assets/thumbnails/Aaj_Se_Teri.png",
+        "music": "assets/musics/Aaj_Se_Teri.m4a",
+        "start": 131,
+        "type": "In love"
+    },
+    {
+        "name": "Jawl Phoring 2.0",
+        "artist": "Anupam Roy",
+        "thumbnail": "assets/thumbnails/Jawl_Phoring_2.0.png",
+        "music": "assets/musics/Jawl_Phoring_2.0.m4a",
+        "start": 60,
+        "type": "Sed"
+    },
+    {
+        "name": "Nisha Lagilo Re",
+        "artist": "rachet junta",
+        "thumbnail": "assets/thumbnails/Nisha_Lagilo_Re.png",
+        "music": "assets/musics/Nisha_Lagilo_Re.m4a",
+        "start": 41,
+        "type": "Delusional"
+    },
+    {
+        "name": "Gulabi Aankhen",
+        "artist": "Sanam",
+        "thumbnail": "assets/thumbnails/Gulabi_Aankhen.png",
+        "music": "assets/musics/Gulabi_Aankhen.m4a",
+        "start": 18,
+        "type": "Admiring"
+    },
+    {
+        "name": "Ei Bhalo Ei Kharap",
+        "artist": "Arijit Singh",
+        "thumbnail": "assets/thumbnails/Ei_Bhalo_Ei_Kharap.png",
+        "music": "assets/musics/Ei_Bhalo_Ei_Kharap.m4a",
+        "start": 95,
+        "type": "Sed"
+    },
+    {
+        "name": "Ekanto Golaap",
+        "artist": "Indalo - Topic",
+        "thumbnail": "assets/thumbnails/Ekanto_Golaap.png",
+        "music": "assets/musics/Ekanto_Golaap.m4a",
+        "start": 71,
+        "type": "Dreaming a life with you"
+    },
+    {
+        "name": "Main Rang Sharbaton Ka (Reprise)",
+        "artist": "Pritam",
+        "thumbnail": "assets/thumbnails/Main_Rang_Sharbaton_Ka_(Reprise).png",
+        "music": "assets/musics/Main_Rang_Sharbaton_Ka_(Reprise).m4a",
+        "start": 107,
+        "type": "In love"
+    },
+    {
+        "name": "Ure Geche (Original Motion Picture Soundtrack)",
+        "artist": "Ash King - Topic",
+        "thumbnail": "assets/thumbnails/Ure_Geche_(Original_Motion_Picture_Soundtrack).png",
+        "music": "assets/musics/Ure_Geche_(Original_Motion_Picture_Soundtrack).m4a",
+        "start": 40,
+        "type": "Dreaming a life with you"
+    },
+    {
+        "name": "Bibhor",
+        "artist": "Level Five - Topic",
+        "thumbnail": "assets/thumbnails/Bibhor.png",
+        "music": "assets/musics/Bibhor.m4a",
+        "start": 84,
+        "type": "Sed"
+    },
+    {
+        "name": "Chaina Meye",
+        "artist": "Hridoy Khan",
+        "thumbnail": "assets/thumbnails/Chaina_Meye.png",
+        "music": "assets/musics/Chaina_Meye.m4a",
+        "start": 20,
+        "type": "In love"
+    }
+]

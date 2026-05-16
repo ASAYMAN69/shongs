@@ -1,0 +1,337 @@
+/* ── Core Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #080808;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Mono', monospace;
+  color: #fff;
+}
+
+/* ── Start Screen & Intro ── */
+#start-screen {
+  position: fixed;
+  inset: 0;
+  background: #080808;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 32px;
+  transition: opacity 1s ease;
+}
+
+.begin-btn {
+  padding: 18px 52px;
+  border-radius: 60px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: transparent;
+  color: #fff;
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  outline: none;
+}
+
+.begin-btn:hover {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(255,255,255,0.1);
+}
+
+.intro-line {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(26px, 7vw, 38px);
+  font-style: italic;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 1.2s ease, transform 1.2s ease;
+  max-width: 85%;
+  line-height: 1.35;
+  transform: translateY(10px);
+}
+
+.intro-line.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Progress dots ── */
+.progress {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: clamp(24px, 5vh, 40px);
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  transition: all 0.4s ease;
+}
+
+.dot.active {
+  width: 20px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.8);
+}
+
+.dot.done {
+  background: rgba(255,255,255,0.05);
+}
+
+/* ── Deck scene ── */
+.scene {
+  position: relative;
+  width: clamp(300px, 85vw, 380px);
+  height: clamp(450px, 70vh, 580px);
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+/* ── Cards ── */
+.card {
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: grab;
+  touch-action: none;
+  will-change: transform;
+  transform-origin: center center;
+  backface-visibility: hidden;
+  transition: transform 0.4s cubic-bezier(0.34, 1.15, 0.64, 1), opacity 0.4s ease;
+  background-size: cover;
+  background-position: center;
+  background-color: #111;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 35px 70px rgba(0,0,0,0.9);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.75) 100%);
+  z-index: 1;
+}
+
+.card:active { cursor: grabbing; }
+
+/* ── Card inner ── */
+.card-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: clamp(32px, 8vw, 44px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-label {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+}
+
+.card-count {
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.25);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-headline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(34px, 9vw, 44px);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+.card-tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: clamp(18px, 4.5vw, 21px);
+  line-height: 1.4;
+  color: rgba(255,255,255,0.75);
+}
+
+/* ── Swipe indicators ── */
+.stamp {
+  position: absolute;
+  top: 40px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 2px solid;
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+  transition: opacity 0.1s linear;
+}
+
+.stamp-yes {
+  left: 35px;
+  color: #4ade80;
+  border-color: #4ade80;
+  transform: rotate(-12deg);
+}
+
+.stamp-no {
+  right: 35px;
+  color: #f87171;
+  border-color: #f87171;
+  transform: rotate(12deg);
+}
+
+/* ── Hint ── */
+.hint {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.15);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+.hint-sep {
+  width: 1px;
+  height: 10px;
+  background: rgba(255,255,255,0.1);
+}
+
+/* ── Done state ── */
+.done-msg {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  animation: fadeIn 1s ease forwards;
+}
+.done-msg.visible { display: flex; }
+
+.done-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.done-circle svg { opacity: 0.6; }
+
+.done-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+  letter-spacing: -0.01em;
+}
+
+.done-sub {
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.25);
+  margin-bottom: 10px;
+}
+
+.action-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.action-btn {
+    padding: 12px 32px;
+    border-radius: 40px;
+    border: 1px solid rgba(255,255,255,0.15);
+    background: transparent;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.action-btn:hover {
+    border-color: rgba(255,255,255,0.4);
+    color: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.03);
+}
+
+.restart-link {
+    margin-top: 20px;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.2);
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
