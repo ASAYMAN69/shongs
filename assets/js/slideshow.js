@@ -135,6 +135,15 @@ const Slideshow = {
         document.getElementById('progress').style.display = 'flex';
         document.getElementById('hint').style.display = 'flex';
         
+        // Show tutorial only on the very first chapter start
+        if (totalRemovedCount === 0) {
+            const tutorial = document.getElementById('tutorial-overlay');
+            tutorial.classList.add('visible');
+            setTimeout(() => {
+                tutorial.classList.remove('visible');
+            }, 2500); 
+        }
+
         // Use a small timeout for opacity transitions
         setTimeout(() => {
             document.getElementById('scene').style.opacity = '1';
