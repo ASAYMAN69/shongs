@@ -181,11 +181,12 @@ const Slideshow = {
         this.clearAutoSlide();
         
         audio.pause();
-        audio.src = track.music;
+        audio.src = track.preview || track.music; // Use 15s preview if available
         audio.load();
         
         const onCanPlay = () => {
-            audio.currentTime = track.start || 0;
+            // Since it's a 15s preview starting from the 'start' point, we seek to 0
+            audio.currentTime = 0; 
             this.fadeInAudio(audio);
             audio.play().then(() => {
                 this.clearAutoSlide();

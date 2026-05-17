@@ -5,7 +5,8 @@
         "thumbnail": "assets/thumbnails/Hua_Hain_Aaj_Pehli_Baar.png",
         "music": "assets/musics/Hua_Hain_Aaj_Pehli_Baar.m4a",
         "start": 219,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/Hua_Hain_Aaj_Pehli_Baar_15s.m4a"
     },
     {
         "name": "Tumi",
@@ -13,7 +14,8 @@
         "thumbnail": "assets/thumbnails/Tumi.png",
         "music": "assets/musics/Tumi.m4a",
         "start": 68.5,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/Tumi_15s.m4a"
     },
     {
         "name": "Bagdhara - Bus Sohokari",
@@ -21,7 +23,8 @@
         "thumbnail": "assets/thumbnails/Bagdhara_-_Bus_Sohokari_(\u09ac\u09be\u09b8-\u09b8\u09b9\u0995\u09be\u09b0\u09c0)__(Official_Audio).png",
         "music": "assets/musics/Bagdhara_-_Bus_Sohokari_(\u09ac\u09be\u09b8-\u09b8\u09b9\u0995\u09be\u09b0\u09c0)__(Official_Audio).m4a",
         "start": 73,
-        "type": "Dreaming a life with you"
+        "type": "Dreaming a life with you",
+        "preview": "assets/preview/Bagdhara_-_Bus_Sohokari_(\u09ac\u09be\u09b8-\u09b8\u09b9\u0995\u09be\u09b0\u09c0)__(Official_Audio)_15s.m4a"
     },
     {
         "name": "60's Love",
@@ -29,7 +32,8 @@
         "thumbnail": "assets/thumbnails/60_s_Love.png",
         "music": "assets/musics/60_s_Love.m4a",
         "start": 257,
-        "type": "Delusional"
+        "type": "Delusional",
+        "preview": "assets/preview/60_s_Love_15s.m4a"
     },
     {
         "name": "Chale Aana",
@@ -37,7 +41,8 @@
         "thumbnail": "assets/thumbnails/Chale_Aana_(From_De_De_Pyaar_De).png",
         "music": "assets/musics/Chale_Aana_(From_De_De_Pyaar_De).m4a",
         "start": 43,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/Chale_Aana_(From_De_De_Pyaar_De)_15s.m4a"
     },
     {
         "name": "DARKHAAST",
@@ -45,7 +50,8 @@
         "thumbnail": "assets/thumbnails/DARKHAAST.png",
         "music": "assets/musics/DARKHAAST.m4a",
         "start": 92,
-        "type": "Sed"
+        "type": "Sed",
+        "preview": "assets/preview/DARKHAAST_15s.m4a"
     },
     {
         "name": "Shibu - 10 E 10",
@@ -53,7 +59,8 @@
         "thumbnail": "assets/thumbnails/Shibu_-_10_E_10_(Official_Visualizer).png",
         "music": "assets/musics/Shibu_-_10_E_10_(Official_Visualizer).m4a",
         "start": 30,
-        "type": "Admiring"
+        "type": "Admiring",
+        "preview": "assets/preview/Shibu_-_10_E_10_(Official_Visualizer)_15s.m4a"
     },
     {
         "name": "Tumi Aashe Paashe",
@@ -61,7 +68,8 @@
         "thumbnail": "assets/thumbnails/Tumi_Aashe_Paashe_(Original_Motion_Picture_Soundtrack).png",
         "music": "assets/musics/Tumi_Aashe_Paashe_(Original_Motion_Picture_Soundtrack).m4a",
         "start": 62,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/Tumi_Aashe_Paashe_(Original_Motion_Picture_Soundtrack)_15s.m4a"
     },
     {
         "name": "Sohena Jatona",
@@ -69,7 +77,8 @@
         "thumbnail": "assets/thumbnails/Sohena_Jatona.png",
         "music": "assets/musics/Sohena_Jatona.m4a",
         "start": 47,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/Sohena_Jatona_15s.m4a"
     },
     {
         "name": "Parbona",
@@ -77,7 +86,8 @@
         "thumbnail": "assets/thumbnails/Parbona.png",
         "music": "assets/musics/Parbona.m4a",
         "start": 58,
-        "type": "Dreaming a life with you"
+        "type": "Dreaming a life with you",
+        "preview": "assets/preview/Parbona_15s.m4a"
     },
     {
         "name": "Durpallar Gari",
@@ -85,7 +95,8 @@
         "thumbnail": "assets/thumbnails/Durpallar_Gari.png",
         "music": "assets/musics/Durpallar_Gari.m4a",
         "start": 71,
-        "type": "Sed"
+        "type": "Sed",
+        "preview": "assets/preview/Durpallar_Gari_15s.m4a"
     },
     {
         "name": "O'Meri Laila",
@@ -93,7 +104,8 @@
         "thumbnail": "assets/thumbnails/O_Meri_Laila.png",
         "music": "assets/musics/O_Meri_Laila.m4a",
         "start": 40,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/O_Meri_Laila_15s.m4a"
     },
     {
         "name": "Zaalima",
@@ -101,7 +113,8 @@
         "thumbnail": "assets/thumbnails/Zaalima.png",
         "music": "assets/musics/Zaalima.m4a",
         "start": 74,
-        "type": "Delusional"
+        "type": "Delusional",
+        "preview": "assets/preview/Zaalima_15s.m4a"
     },
     {
         "name": "PEE LOON",
@@ -109,7 +122,8 @@
         "thumbnail": "assets/thumbnails/PEE_LOON.png",
         "music": "assets/musics/PEE_LOON.m4a",
         "start": 71,
-        "type": "Admiring"
+        "type": "Admiring",
+        "preview": "assets/preview/PEE_LOON_15s.m4a"
     },
     {
         "name": "TUM JO AAYE",
@@ -117,7 +131,8 @@
         "thumbnail": "assets/thumbnails/TUM_JO_AAYE.png",
         "music": "assets/musics/TUM_JO_AAYE.m4a",
         "start": 134,
-        "type": "Delusional"
+        "type": "Delusional",
+        "preview": "assets/preview/TUM_JO_AAYE_15s.m4a"
     },
     {
         "name": "Tere Naina",
@@ -125,7 +140,8 @@
         "thumbnail": "assets/thumbnails/Tere_Naina_(From_My_Name_Is_Khan).png",
         "music": "assets/musics/Tere_Naina_(From_My_Name_Is_Khan).m4a",
         "start": 204,
-        "type": "Admiring"
+        "type": "Admiring",
+        "preview": "assets/preview/Tere_Naina_(From_My_Name_Is_Khan)_15s.m4a"
     },
     {
         "name": "Aaj Se Teri",
@@ -133,7 +149,8 @@
         "thumbnail": "assets/thumbnails/Aaj_Se_Teri.png",
         "music": "assets/musics/Aaj_Se_Teri.m4a",
         "start": 131,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/Aaj_Se_Teri_15s.m4a"
     },
     {
         "name": "Jawl Phoring 2.0",
@@ -141,7 +158,8 @@
         "thumbnail": "assets/thumbnails/Jawl_Phoring_2.0.png",
         "music": "assets/musics/Jawl_Phoring_2.0.m4a",
         "start": 60,
-        "type": "Sed"
+        "type": "Sed",
+        "preview": "assets/preview/Jawl_Phoring_2.0_15s.m4a"
     },
     {
         "name": "Nisha Lagilo Re",
@@ -149,7 +167,8 @@
         "thumbnail": "assets/thumbnails/Nisha_Lagilo_Re.png",
         "music": "assets/musics/Nisha_Lagilo_Re.m4a",
         "start": 41,
-        "type": "Delusional"
+        "type": "Delusional",
+        "preview": "assets/preview/Nisha_Lagilo_Re_15s.m4a"
     },
     {
         "name": "Gulabi Aankhen",
@@ -157,7 +176,8 @@
         "thumbnail": "assets/thumbnails/Gulabi_Aankhen.png",
         "music": "assets/musics/Gulabi_Aankhen.m4a",
         "start": 18,
-        "type": "Admiring"
+        "type": "Admiring",
+        "preview": "assets/preview/Gulabi_Aankhen_15s.m4a"
     },
     {
         "name": "Ei Bhalo Ei Kharap",
@@ -165,7 +185,8 @@
         "thumbnail": "assets/thumbnails/Ei_Bhalo_Ei_Kharap.png",
         "music": "assets/musics/Ei_Bhalo_Ei_Kharap.m4a",
         "start": 95,
-        "type": "Sed"
+        "type": "Sed",
+        "preview": "assets/preview/Ei_Bhalo_Ei_Kharap_15s.m4a"
     },
     {
         "name": "Ekanto Golaap",
@@ -173,7 +194,8 @@
         "thumbnail": "assets/thumbnails/Ekanto_Golaap.png",
         "music": "assets/musics/Ekanto_Golaap.m4a",
         "start": 71,
-        "type": "Dreaming a life with you"
+        "type": "Dreaming a life with you",
+        "preview": "assets/preview/Ekanto_Golaap_15s.m4a"
     },
     {
         "name": "Main Rang Sharbaton Ka (Reprise)",
@@ -181,7 +203,8 @@
         "thumbnail": "assets/thumbnails/Main_Rang_Sharbaton_Ka_(Reprise).png",
         "music": "assets/musics/Main_Rang_Sharbaton_Ka_(Reprise).m4a",
         "start": 107,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/Main_Rang_Sharbaton_Ka_(Reprise)_15s.m4a"
     },
     {
         "name": "Ure Geche",
@@ -189,7 +212,8 @@
         "thumbnail": "assets/thumbnails/Ure_Geche_(Original_Motion_Picture_Soundtrack).png",
         "music": "assets/musics/Ure_Geche_(Original_Motion_Picture_Soundtrack).m4a",
         "start": 40,
-        "type": "Dreaming a life with you"
+        "type": "Dreaming a life with you",
+        "preview": "assets/preview/Ure_Geche_(Original_Motion_Picture_Soundtrack)_15s.m4a"
     },
     {
         "name": "Bibhor",
@@ -197,7 +221,8 @@
         "thumbnail": "assets/thumbnails/Bibhor.png",
         "music": "assets/musics/Bibhor.m4a",
         "start": 84,
-        "type": "Sed"
+        "type": "Sed",
+        "preview": "assets/preview/Bibhor_15s.m4a"
     },
     {
         "name": "Chaina Meye",
@@ -205,6 +230,7 @@
         "thumbnail": "assets/thumbnails/Chaina_Meye.png",
         "music": "assets/musics/Chaina_Meye.m4a",
         "start": 20,
-        "type": "In love"
+        "type": "In love",
+        "preview": "assets/preview/Chaina_Meye_15s.m4a"
     }
 ]
